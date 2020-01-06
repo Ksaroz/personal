@@ -12,7 +12,7 @@ class Education extends Component {
         <div className="container">
             <div className="row education justify-content-center">
                 <div id="education"><h1 className="text-center mt-5">My Education</h1>
-            <Row xs="4" className="my-5">
+            <Row xs="4" className="mx-auto my-5">
 
               <Col xs="12" sm="3">
                   <Card body outline color="primary">
@@ -65,6 +65,7 @@ class Education extends Component {
                           </Col>
 
               </Row>
+                <div className="text-center"><button className="btn-cv my-2"><a href="https://drive.google.com/open?id=0B3lpzqmId7sSYWlVODFaV0oyLTA" target="_blank">View More </a></button></div>
               </div>
   </div>
   </div>

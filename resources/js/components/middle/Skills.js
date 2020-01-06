@@ -6,16 +6,16 @@ class Skills extends Component {
 
     return (
         <div className="container-fluid">
-            <div className="row skills justify-content-center">
-                <div>
+            <div className="skills justify-content-center">
+
                 <div id="skills"> <h1 className="text-center mt-5">My Skills</h1>
                 <h3 className="text-center mx-auto my-5 d-block">Web Development</h3>
+    <div className="row">
+      <div className="skill-row mx-auto my-5 col-sm-6">
 
-      <div className="skill-row mx-auto float-left col-6">
+      <img className="skill-img ml-5 float-left d-block" src="images/front.png"alt="web-image" />
 
-      <img className="skill-img float-left mx-auto d-block" src="images/front.png"alt="web-image" />
-
-      <div className="skill-description-one float-right">
+      <div className="skill-description-one mr-5 float-right d-block">
 				<span className="fend">Front-End</span>
 				<div className="front-list">
 					<ul>
@@ -25,17 +25,18 @@ class Skills extends Component {
 						<li>JQUERY</li>
 						<li>BOOTSTRAP</li>
 						<li>AJAX</li>
+            <li>ReactJS</li>
 						<li>PHOTOSHOP(CC)</li>
 					</ul>
 				</div>
         </div>
     </div>
 
-    <div className="skill-row mx-auto float-right col-6">
+    <div className="skill-row mx-auto my-5 col-sm-6">
 
-    <img className="skill-img float-left mx-auto d-block" src="images/skill.png"alt="web-image" />
+    <img className="skill-img ml-5 float-left d-block" src="images/skill.png"alt="web-image" />
 
-    <div className="skill-description-one float-right">
+    <div className="skill-description-one mr-5 float-right d-block">
       <span className="fend">Back-End</span>
       <div className="front-list">
         <ul>

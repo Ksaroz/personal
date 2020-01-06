@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
+import Homebtn from './Homebtn';
 import Index from './Index';
 import About from './middle/About';
 import Skills from './middle/Skills';
@@ -15,6 +16,7 @@ class Example extends Component {
 
     return (
       <div>
+        <Homebtn />
         <Index />
         <About />
         <Skills />

@@ -14,6 +14,7 @@ h3 {
 h4 {
   margin: auto;
   padding: 5px;
+  color: #FC642D;
 }
 p {
 
@@ -32,11 +33,10 @@ hr {
   font-family: 'Merriweather', 'Roboto', serif;
 }
 
-#introd {
-  height: auto;
-}
+
 .top {
   background: #e7eaf6;
+  min-height: 100vh;
 }
 
 
@@ -87,7 +87,7 @@ hr {
 #about {
   margin: auto;
   width: 50%;
-  height: auto;
+  min-height: 100vh;
 }
 
 
@@ -144,22 +144,22 @@ hr {
 /* Skills */
 
 #skills {
-  height: auto;
+  min-height: 100vh;
 }
-.skill-row {
+#skills h3 {
+  color: #FF5A5F;
+}
+/* .skill-row {
 	padding-top: 70px;
 	width: 50%;
 	line-height: 2;
-}
+} */
 
 .skill-img {
 	width: 25%;
-	margin-left: 50px;
 }
 
-.skill-description-one {
-  margin-right: 50px;
-}
+
 
 .fend {
 	color: red;

@@ -7,6 +7,8 @@
         <title>Saroj Kumar Shrestha</title>
         <link href="{{asset('/css/app.css')}}" rel="stylesheet" type="text/css">
         <link href="{{asset('/css/style.css')}}" rel="stylesheet" type="text/css">
+        <link href="{{asset('/css/gallery.css')}}" rel="stylesheet" type="text/css">
+        <link href="{{asset('/css/homebtn.css')}}" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Roboto|Roboto+Slab|Sacramento" rel="stylesheet">
     </head>
     <body>

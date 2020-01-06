@@ -12,7 +12,7 @@ class Index extends Component {
                         <div className="intro pt-5 font-weight-bold text-center">I'm Saroj Kumar</div>
 
                         <div className="intro-prof font-weight-bold text-center">a <span>Web</span> Designer & Developer</div>
-                        <img className="top-bat mx-auto d-block" src="images/bat.png" alt="batmanlogo" />
+                        <a href="https://en.wikipedia.org/wiki/Batman" target="_blank"><img className="top-bat mx-auto d-block" src="images/bat.png" alt="batmanlogo" /></a>
 
   <nav className="navbar navbar-expand-lg navbar-light">
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +38,7 @@ class Index extends Component {
         <a className="nav-link" href="#achievements">Achievements</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#Galleries">Galleries</a>
+        <a className="nav-link" href="#galleries">Galleries</a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#contacts">Contacts</a>
