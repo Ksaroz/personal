@@ -12,6 +12,10 @@ class About extends Component {
     <img className="prof-img mx-auto d-block" src="images/me.jpg" alt="profile-image" />
     <div className="clear text-center mt-2"><h3>Hello.</h3>
     <p className="intro-mid text-center mt-3">I am a Web Designer & Developer. Completed My gruaduation from Bangalore University on the course of B.C.A. I love play football.</p>
+    <p className="intro-mid text-center mt-3">Courteous and enthusiastic, I am interested in IT and everything in its orbit. I have been fascinated by web programming, e.g. developing apps and building websites. Since I joined college for my degree, I have learned the technical skills and programming languages during my college days and now I gained experience of working in this area.
+    As this area complements my studies, I am keen to gain more experience in the field.
+    For this reason, I am looking for a company willing to offer me a placement among its developers. In return, I would offer my full commitment, and be a pleasant and friendly addition to your team. I am therefore looking for a job as a web developer.
+    </p>
 		<button className="btn-cv my-5"><a href="images/docs/cv.pdf" target="_blank">VIEW MY CV </a></button>
 	</div>
   </div>
@@ -22,7 +26,5 @@ class About extends Component {
 
   }
 }
-
-
 
 export default About;

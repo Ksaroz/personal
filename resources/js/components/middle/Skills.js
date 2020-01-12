@@ -1,60 +1,91 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
+import {
+  Card, CardImg, CardText, CardBody,
+  CardTitle, CardSubtitle, Button, Row, Col,
+  Badge, Container, ListGroup, ListGroupItem
+} from 'reactstrap';
 
 class Skills extends Component {
   render() {
 
     return (
-        <div className="container-fluid">
-            <div className="skills justify-content-center">
-
-                <div id="skills"> <h1 className="text-center mt-5">My Skills</h1>
-                <h3 className="text-center mx-auto my-5 d-block">Web Development</h3>
-    <div className="row">
-      <div className="skill-row mx-auto my-5 col-sm-6">
-
-      <img className="skill-img ml-5 float-left d-block" src="images/front.png"alt="web-image" />
-
-      <div className="skill-description-one mr-5 float-right d-block">
-				<span className="fend">Front-End</span>
-				<div className="front-list">
-					<ul>
-						<li>HTML5</li>
-						<li>CSS3</li>
-						<li>JAVASCRIPT(ES6)</li>
-						<li>JQUERY</li>
-						<li>BOOTSTRAP</li>
-						<li>AJAX</li>
-            <li>ReactJS</li>
-						<li>PHOTOSHOP(CC)</li>
-					</ul>
-				</div>
-        </div>
-    </div>
-
-    <div className="skill-row mx-auto my-5 col-sm-6">
-
-    <img className="skill-img ml-5 float-left d-block" src="images/skill.png"alt="web-image" />
-
-    <div className="skill-description-one mr-5 float-right d-block">
-      <span className="fend">Back-End</span>
-      <div className="front-list">
-        <ul>
-        <li>PHP</li>
-        <li>MySQL</li>
-        <li>Laravel</li>
-        <li>GIT, GITHUB</li>
-        <li>RESTAPI</li>
-        </ul>
-      </div>
-      </div>
-  </div>
 
 
+                <div id="skills"> <h1 className="text-center mx-auto my-5">My Skills</h1>
 
-	</div>
-  </div>
-  </div>
+
+            <Container>
+            <Row>
+                <Col>
+                <Card>
+                   <CardImg top width="100%" height="auto" src="images/front.png" alt="Card image cap" />
+                   <CardBody>
+                     <CardTitle className="text-danger">Web Designing</CardTitle>
+                     <ListGroup>
+                      <ListGroupItem>HTML5</ListGroupItem>
+                      <ListGroupItem>CSS3</ListGroupItem>
+                      <ListGroupItem>JAVASCRIPT(ES6)</ListGroupItem>
+                      <ListGroupItem>REACT.JS</ListGroupItem>
+                      <ListGroupItem>BOOTSTRAP</ListGroupItem>
+                      <ListGroupItem>JQUERY</ListGroupItem>
+                      <ListGroupItem>AJAX</ListGroupItem>
+                      <ListGroupItem>REACTSTRAP</ListGroupItem>
+                    </ListGroup>
+                   </CardBody>
+                 </Card>
+                </Col>
+                <Col>
+                <Card>
+                   <CardImg top width="100%" height="auto" src="images/skill.png" alt="Card image cap" />
+                   <CardBody>
+                     <CardTitle className="text-danger">Web Development</CardTitle>
+                     <ListGroup>
+                      <ListGroupItem>PHP(7.0)</ListGroupItem>
+                      <ListGroupItem>MySQL</ListGroupItem>
+                      <ListGroupItem>LARAVEL(6)</ListGroupItem>
+                      <ListGroupItem>RESTAPI</ListGroupItem>
+                      <ListGroupItem>GIT & GITHUB</ListGroupItem>
+                      <ListGroupItem>CHROME-DEBUGGER</ListGroupItem>
+                    </ListGroup>
+                   </CardBody>
+                 </Card>
+                </Col>
+                <Col>
+                <Card>
+                   <CardImg top width="100%" height="auto" src="images/comlogo.png" alt="Card image cap" />
+                   <CardBody>
+                     <CardTitle className="text-danger">OTHER COMPUTER SKILLS</CardTitle>
+                     <ListGroup>
+                      <ListGroupItem>PHOTOSHOP(CC)</ListGroupItem>
+                      <ListGroupItem>CORELDRAW</ListGroupItem>
+                      <ListGroupItem>GRASS VALLEY(EDIUS)</ListGroupItem>
+                      <ListGroupItem>MICROSOFT OFFICE</ListGroupItem>
+                      <ListGroupItem>PROFICIENT TYPING</ListGroupItem>
+                      <ListGroupItem>COMPUTER REPAIRING</ListGroupItem>
+                      <ListGroupItem>AND OTHERS</ListGroupItem>
+                    </ListGroup>
+                   </CardBody>
+                 </Card>
+                </Col>
+                <Col>
+                <Card>
+                   <CardImg top width="100%" height="auto" src="images/personal.png" alt="Card image cap" />
+                   <CardBody>
+                     <CardTitle className="text-danger">PERSONAL SKILLS</CardTitle>
+                     <ListGroup>
+                      <ListGroupItem>PLAYING FOOTBALL</ListGroupItem>
+                      <ListGroupItem>COOKING</ListGroupItem>
+                      <ListGroupItem>RACING BIKES</ListGroupItem>
+                      <ListGroupItem>GARDENING FLOWERS</ListGroupItem>
+                      <ListGroupItem>TEACHING</ListGroupItem>
+                    </ListGroup>
+                   </CardBody>
+                 </Card>
+                </Col>
+            </Row>
+            </Container>
+
   </div>
   );
 

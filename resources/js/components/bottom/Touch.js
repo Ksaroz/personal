@@ -38,7 +38,7 @@ class Touch extends Component {
                           <h4>This is <span className="last-intro">Saroj Kumar Shrestha</span>.</h4><br />
                           <h5>Haldibari-2, Jhapa, Nepal</h5>
                           <h5>+977-9816900475</h5>
-                          <h5>+977-9807932335</h5>        
+                          <h5>+977-9807932335</h5>
 
                         </div>
 

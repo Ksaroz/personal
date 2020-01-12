@@ -6,14 +6,19 @@ class Footer extends Component {
 
     return (
         <div className="container-fluid">
-        
+
             <div className="footer justify-content-center">
 
-            <div className="bottom-container text-center mx-auto">
-               <a className="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-                <a className="footer-link" href="https://twitter.com/">Twitter</a>
-                <a className="footer-link" href="https://www.appbrewery.co/">Website</a>
-                <p className="copyright">© 2018 Name Surname.</p>
+            <div className="bottom-container text-center">
+                <a className="footer-link mx-1" href="#about">About</a>
+                <a className="footer-link mx-1" href="#skills">Skills</a>
+                <a className="footer-link mx-1" href="#hobbies">Hobbies</a>
+                <a className="footer-link mx-1" href="#education">Education</a>
+                <a className="footer-link mx-1" href="#achievements">Achievements</a>
+                <a className="footer-link mx-1" href="#galleries">Galleries</a>
+                <a className="footer-link mx-1" href="#contacts">Contacts</a>
+
+                <p className="copyright">© {(new Date().getFullYear())} Saroj Kumar Shrestha.</p>
               </div>
 
 

@@ -19,6 +19,7 @@ class Example extends Component {
         <Homebtn />
         <Index />
         <About />
+        <hr />
         <Skills />
         <hr />
         <Hobbies />

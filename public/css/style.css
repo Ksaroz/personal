@@ -195,17 +195,17 @@ hr {
 /* bottom folders for bottom contents */
 
 .bottom-container {
-	background-color: #66bfbf;
+	background-color: #66bfdf;
 	padding: 50px 0 20px;
+}
+
+.footer-link {
+  color: #fff;
 }
 
 .copyright {
 	color: #eaf6f6;
 	font-size: 0.75em;
 	padding: 20px 0px;
-
-}
-
-.contact-message {
 
 }

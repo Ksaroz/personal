@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
+import 'font-awesome/css/font-awesome.min.css';
 
 class Index extends Component {
   render() {
@@ -46,6 +47,17 @@ class Index extends Component {
     </ul>
   </div>
 </nav>
+
+<div className="follow text-center mx-auto my-5">
+<a href="https://www.linkedin.com/in/kshresthasan/" target="_blank" className="mx-2" ><i className="fa fa-linkedin fa-2x"></i></a>
+<a href="https://github.com/Ksaroz" target="_blank" className="mx-2" ><i className="fa fa-github-square fa-2x"></i></a>
+<a href="https://www.facebook.com/Kshresthasan" target="_blank" className="mx-2" ><i className="fa fa-facebook fa-2x"></i></a>
+<a href="https://www.instagram.com/kshresthasan/" target="_blank" className="mx-2" ><i className="fa fa-instagram fa-2x"></i></a>
+<a href="https://twitter.com/Ksaroz_1992" target="_blank" className="mx-2" ><i className="fa fa-twitter-square fa-2x"></i></a>
+
+
+
+</div>
     </div>
   </div>
   </div>
