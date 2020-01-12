@@ -42,7 +42,7 @@ class Touch extends Component {
 
                         </div>
 
-                    <div className="text-center"><button className="btn-cv my-2"><a href="" target="_blank">Contact Me</a></button></div>
+                    <div className="text-center"><button className="btn-cv my-2"><a href="mailto:ksaroz1992@gmail.com?Subject=Hello%20there" target="_top">Contact Me</a></button></div>
 
                 </div>
               </div>

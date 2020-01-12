@@ -83744,7 +83744,10 @@ function (_Component) {
         className: "intro pt-5 font-weight-bold text-center"
       }, "I'm Saroj Kumar"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "intro-prof font-weight-bold text-center"
-      }, "a ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Web"), " Designer & Developer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "a ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://en.wikipedia.org/wiki/World_Wide_Web",
+        target: "_blank"
+      }, "Web")), " Designer & Developer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://en.wikipedia.org/wiki/Batman",
         target: "_blank"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -84040,8 +84043,8 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         className: "btn-cv my-2"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "",
-        target: "_blank"
+        href: "mailto:ksaroz1992@gmail.com?Subject=Hello%20there",
+        target: "_top"
       }, "Contact Me"))))));
     }
   }]);
@@ -84119,10 +84122,10 @@ function (_Component) {
         className: "intro-mid text-center mt-3"
       }, "I am a Web Designer & Developer. Completed My gruaduation from Bangalore University on the course of B.C.A. I love play football."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "intro-mid text-center mt-3"
-      }, "Courteous and enthusiastic, I am interested in IT and everything in its orbit. I have been fascinated by web programming, e.g. developing apps and building websites. Since I joined college for my degree, I have learned the technical skills and programming languages during my college days and now I gained experience of working in this area. As this area complements my studies, I am keen to gain more experience in the field. For this reason, I am looking for a company willing to offer me a placement among its developers. In return, I would offer my full commitment, and be a pleasant and friendly addition to your team. I am therefore looking for a job as a web developer."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      }, "Courteous and enthusiastic, I am interested in IT and everything in its orbit. I have been fascinated by web programming, e.g. developing apps and building websites. Since I joined college for my degree, I have learned the technical skills and programming languages during my college days and now I gained experience of working in this area. As this area complements my studies, I am keen to gain more experience in the field."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         className: "btn-cv my-5"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "images/docs/cv.pdf",
+        href: "https://drive.google.com/open?id=1WQu0H-3-Uy4lGRoTgUisSNLuGAaH1XcS",
         target: "_blank"
       }, "VIEW MY CV ")))))));
     }
@@ -84316,7 +84319,9 @@ function (_Component) {
         height: "auto",
         src: "images/logo/emblem.svg",
         alt: "slc marksheet image"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardBody"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardTitle"], null, "SLC Sent-up"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardSubtitle"], null, "2006"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardText"], null, "\u201CLearn as much as you can while you are young, since life becomes too busy later\u201D- Dana Stewart Scott."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Badge"], {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardBody"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardTitle"], {
+        className: "text-danger"
+      }, "SLC Sent-up"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardSubtitle"], null, "2006"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardText"], null, "\u201CLearn as much as you can while you are young, since life becomes too busy later\u201D- Dana Stewart Scott."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Badge"], {
         href: "https://drive.google.com/open?id=0B3lpzqmId7sSV0lDeEJyR1ZGVnc",
         target: "_blank",
         color: "secondary"
@@ -84331,7 +84336,9 @@ function (_Component) {
         height: "auto",
         src: "images/logo/emblem.svg",
         alt: "slc marksheet image"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardBody"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardTitle"], null, "SLC Graduation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardSubtitle"], null, "2008"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardText"], null, "\u201CFuture belongs to those who believe in the beauty of their dreams\"- Elenor Roosevelt."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Badge"], {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardBody"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardTitle"], {
+        className: "text-danger"
+      }, "SLC Graduation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardSubtitle"], null, "2008"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardText"], null, "\u201CFuture belongs to those who believe in the beauty of their dreams\"- Elenor Roosevelt."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Badge"], {
         href: "https://drive.google.com/open?id=0B3lpzqmId7sSMkpKM01XNlFDUjQ",
         target: "_blank",
         color: "secondary"
@@ -84346,7 +84353,9 @@ function (_Component) {
         height: "auto",
         src: "images/logo/hseb.jpg",
         alt: "slc marksheet image"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardBody"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardTitle"], null, "+2 Level Graduation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardSubtitle"], null, "2011"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardText"], null, "\u201CFollow your passion. it will lead you to your purpose\"- Oprah Winfrey."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Badge"], {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardBody"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardTitle"], {
+        className: "text-danger"
+      }, "+2 Level Graduation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardSubtitle"], null, "2011"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardText"], null, "\u201CFollow your passion. it will lead you to your purpose\"- Oprah Winfrey."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Badge"], {
         href: "https://drive.google.com/open?id=0B3lpzqmId7sSeWs1TmdXUFEzd2s",
         target: "_blank",
         color: "secondary"
@@ -84361,7 +84370,9 @@ function (_Component) {
         height: "auto",
         src: "images/logo/bangalore.jpg",
         alt: "slc marksheet image"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardBody"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardTitle"], null, "University Graduation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardSubtitle"], null, "2019"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardText"], null, "\u201CDo not let what you cannot do. interfere with what you can do\" ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "- John Wooden."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Badge"], {
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardBody"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardTitle"], {
+        className: "text-danger"
+      }, "University Graduation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardSubtitle"], null, "2019"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["CardText"], null, "\u201CDo not let what you cannot do. interfere with what you can do\" ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "- John Wooden."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Badge"], {
         href: "https://drive.google.com/open?id=13gBDYqU4bCAZhhr7rNTZI6lLQhmQo8M9",
         target: "_blank",
         color: "secondary"

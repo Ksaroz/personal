@@ -12,7 +12,7 @@ class Index extends Component {
                     <div id="introd">
                         <div className="intro pt-5 font-weight-bold text-center">I'm Saroj Kumar</div>
 
-                        <div className="intro-prof font-weight-bold text-center">a <span>Web</span> Designer & Developer</div>
+                        <div className="intro-prof font-weight-bold text-center">a <span><a href="https://en.wikipedia.org/wiki/World_Wide_Web" target="_blank">Web</a></span> Designer & Developer</div>
                         <a href="https://en.wikipedia.org/wiki/Batman" target="_blank"><img className="top-bat mx-auto d-block" src="images/bat.png" alt="batmanlogo" /></a>
 
   <nav className="navbar navbar-expand-lg navbar-light">
