@@ -201,6 +201,12 @@ hr {
 
 .footer-link {
   color: #fff;
+
+}
+
+.footer-link:hover {
+  color: #E50914;
+  text-decoration: none;
 }
 
 .copyright {
